@@ -1,2 +1,1 @@
-web: gunicorn run:app
-web: gunicorn run.wsgi
+web: gunicorn run:app --preload
